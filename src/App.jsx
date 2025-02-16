@@ -12,7 +12,7 @@ import Otp from './modules/Otp';
 import Forgotpassword from './modules/Forgotpassword';
 
 const ProtectedRoute = ({ children, auth }) => {
-	const isLoggedIn = localStorage?.getItem('access_token') !== null || true;
+	const isLoggedIn = localStorage?.getItem('access_token') !== null ;
 	const location = useLocation();
 
 	if (!isLoggedIn && auth) {
