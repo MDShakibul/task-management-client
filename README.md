@@ -1,8 +1,40 @@
-# React + Vite
+## Summary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Technology :** React, Tailwind CSS
+- **Database:** MySQL
 
-Currently, two official plugins are available:
+## Important Note
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Note:** The `.env` file attached with the email. Please ensure you have them before running the project.
+
+## Getting Started
+
+First, clone or dowload this project:
+
+```bash
+git colne https://github.com/MDShakibul/task-management-client.git
+```
+or click download the button
+
+then stat this commad for install all Package
+
+```bash
+npm install
+```
+
+last, run the development server:
+
+```bash
+npm run dev
+```
+
+## Live site Link
+
+[https://task-management-assesment.netlify.app/users/sign_in](https://task-management-assesment.netlify.app/users/sign_in)
+
+
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+
