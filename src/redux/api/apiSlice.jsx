@@ -11,7 +11,8 @@ const prepareHeaders = (headers) => {
 export const apiSlice = createApi({
 	reducerPath: 'api',
 	baseQuery: fetchBaseQuery({
-		baseUrl: `${import.meta.env.VITE_BASE_URL}/api/v1`,
+		/* baseUrl: `${import.meta.env.VITE_BASE_URL}/api/v1`, */
+		baseUrl: import.meta.env.VITE_BASE_URL + "/api/v1",
 		prepareHeaders,
 	}),
 	tagTypes: ['updateProfile', 'addTask', 'updatedTask', 'deleteTask'],
