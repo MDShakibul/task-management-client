@@ -11,8 +11,7 @@ const prepareHeaders = (headers) => {
 export const apiSlice = createApi({
 	reducerPath: 'api',
 	baseQuery: fetchBaseQuery({
-		baseUrl: 'https://task-management-backend-pearl-two.vercel.app/api/v1',
-		/* baseUrl: 'http://localhost:5000/api/v1', */
+		baseUrl: `${import.meta.env.VITE_BASE_URL}/api/v1`,
 		prepareHeaders,
 	}),
 	tagTypes: ['updateProfile', 'addTask', 'updatedTask', 'deleteTask'],
